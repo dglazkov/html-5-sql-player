@@ -1,0 +1,73 @@
+
+	body {
+		background-color: #fff;
+		font-family: "Lucida Sans Unicode", Helvetica, sans-serif;
+	}
+	
+	
+	form {
+		margin: 0 300px 0 0;
+		padding: 0;
+	}
+	
+	#results {
+		width: 290px;
+		height: 400px;
+		overflow: auto;
+		padding: 0 0 0 10px;
+		float: right;
+	}
+	
+	#credits {
+		clear: both;
+	}
+	
+	textarea {
+		display: block;
+		width: 100%;
+		height: 400px;
+	}
+	
+	#requirements, #help {
+		display: none;
+	}
+	
+	#result-list {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		font-size: 12px;
+	}
+	
+	#result-list li {
+		background-repeat: no-repeat;
+		background-position: 0 2px;
+		padding: 2px 0 2px 20px;
+		border-top: solid #efefef 1px;
+	}
+	
+	#result-list li .type {
+		position: absolute;
+		left: -200px;
+		top: 0;
+	}
+	
+	#result-list .log {
+		background-image: url(../images/comment.png);
+	}
+	
+	#result-list .info {
+		background-image: url(../images/information.png);
+	}
+	
+	#result-list .error {
+		background-image: url(../images/exclamation.png);
+	}
+	
+	#result-list .warn {
+		background-image: url(../images/error.png);
+	}
+	
+	#result-list .debug {
+		background-image: url(../images/bug.png);
+	}
